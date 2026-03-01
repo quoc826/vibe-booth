@@ -7,121 +7,173 @@ const boothModels = [
         id: 1,
         title: 'Rustic Wooden Box',
         desc: 'Thiết kế mộc mạc với chất liệu gỗ tự nhiên, rèm nâu ấm áp và bảng đen phấn trắng cổ điển.',
-        idealFor: ['Tiệc cưới ngoài trời', 'Cafe không gian mộc', 'Sự kiện Vintage'],
-        img: '/booths/booth-1.jpg',
+        idealFor: ['Quán Pub, Bar', 'Cafe mộc', 'Rạp chiếu phim', 'Sảnh khách sạn'],
+        img: '/booths/booth-6.jpg',
         badge: 'Mộc mạc'
     },
     {
         id: 2,
         title: 'Elegant White Minimal',
         desc: 'Khối hộp tối giản với hệ rèm thanh lịch, tôn lên sự chuyên nghiệp và tinh khôi.',
-        idealFor: ['Sự kiện doanh nghiệp', 'Tiệc cưới sang trọng', 'Fashion Shop'],
-        img: '/booths/booth-2.jpg',
+        idealFor: ['Sự kiện doanh nghiệp', 'Tiệc cưới', 'Fashion Shop'],
+        img: '/booths/booth-7.jpg',
         badge: 'Sang trọng'
     },
     {
         id: 3,
         title: 'Retro Classic Black',
         desc: 'Tone đen nhám kết hợp họa tiết typography vintage và rèm nhung đỏ, tạo chất hoài cổ sâu sắc.',
-        idealFor: ['Quán Pub, Bar', 'Nhà hàng âu', 'Sự kiện Retro'],
-        img: '/booths/booth-3.jpg',
+        idealFor: ['Quán Pub, Bar', 'Nhà hàng Âu', 'Sự kiện Retro'],
+        img: '/booths/booth-8.jpg',
         badge: 'Cá tính'
     },
     {
         id: 4,
         title: 'Red Line Compact',
         desc: 'Thiết kế cực kỳ nhỏ gọn bo góc hiện đại, đi kèm viền đỏ nổi bật, hút mắt người qua lại.',
-        idealFor: ['Quán trà sữa', 'Quán Cafe diện tích hẹp', 'Store mặt tiền'],
-        img: '/booths/booth-4.jpg',
-        badge: 'Tiết kiệm không gian'
+        idealFor: ['Quán trà sữa', 'Cafe check in', 'Store mặt tiền'],
+        img: '/booths/booth-9.jpg',
+        badge: 'Hot Trend'
     },
     {
         id: 5,
-        title: 'Korean Open Studio',
-        desc: 'Dạng tủ chụp ảnh nửa mở với vòm bo tròn mềm mại và rèm lụa thả dịu dàng, cực kỳ nịnh mắt.',
-        idealFor: ['Concept Cafe Hàn Quốc', 'Tiệm bánh ngọt', 'Mini Studio'],
-        img: '/booths/booth-5.jpg',
+        title: 'Coastal Retro Booth',
+        desc: 'Dạng tủ vuông vức ốp gỗ vân sáng, điểm xuyết họa tiết retro gợn sóng và rèm xanh navy.',
+        idealFor: ['Quán Cafe', 'Tiệm bánh ngọt', 'Mini Studio'],
+        img: '/booths/booth-10.jpg',
         badge: 'Hot Trend'
+    },
+    {
+        id: 6,
+        title: 'Classic Arcade Booth',
+        desc: 'Tủ gỗ viền đen kết hợp bảng hiệu hộp đèn rực rỡ, mang đậm vibe bốt chụp ảnh thập niên 90.',
+        idealFor: ['Bia craft', 'Quán Pub', 'Tổ hợp giải trí'],
+        img: '/booths/booth-11.jpg',
+        badge: 'Cổ điển'
     }
 ];
 
+const containerVariants = {
+    hidden: { opacity: 0 },
+    show: {
+        opacity: 1,
+        transition: {
+            staggerChildren: 0.15
+        }
+    }
+};
+
+const itemVariants = {
+    hidden: { opacity: 0, y: 30 },
+    show: { 
+        opacity: 1, 
+        y: 0, 
+        transition: { 
+            type: "spring" as const, 
+            stiffness: 80,
+            damping: 15
+        } 
+    }
+};
+
 export default function TrendingBooths() {
     return (
-        <section className="py-24 bg-slate-50 relative overflow-hidden">
-            <div className="container mx-auto px-4 md:px-6 relative z-10">
+        <section className="relative py-24 overflow-hidden bg-slate-50/50">
+            {/* Ambient Background Elements */}
+            <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
+                <div className="absolute top-[-10%] right-[-5%] w-[500px] h-[500px] rounded-full bg-teal-200/20 blur-[100px]"></div>
+                <div className="absolute bottom-[-10%] left-[-5%] w-[600px] h-[600px] rounded-full bg-rose-200/20 blur-[120px]"></div>
+            </div>
 
-                <div className="text-center max-w-3xl mx-auto mb-16">
+            <div className="container relative z-10 px-4 mx-auto md:px-6 max-w-7xl">
+                
+                {/* Header Section */}
+                <div className="max-w-2xl mx-auto mb-20 text-center">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
+                        transition={{ duration: 0.5 }}
                     >
-                        <div className="inline-flex items-center justify-center gap-2 px-3 py-1.5 rounded-full bg-teal-100 text-teal-800 text-sm font-semibold mb-4">
-                            <Store className="w-4 h-4" />
+                        <div className="inline-flex items-center justify-center gap-2 px-4 py-2 mb-6 text-sm font-semibold bg-white border rounded-full shadow-sm border-slate-200 text-slate-700">
+                            <Store className="w-4 h-4 text-teal-500" />
                             <span>Thiết kế Module linh hoạt</span>
                         </div>
-                        <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mb-6 tracking-tight">
-                            Mẫu Booth <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-rose-500">Trending Mới Nhất</span>
+                        <h2 className="mb-6 text-4xl font-extrabold tracking-tight md:text-5xl text-slate-900">
+                            Mẫu Booth <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-500 to-emerald-500">Thịnh Hành</span>
                         </h2>
-                        <p className="text-lg text-slate-600">
-                            Chiêm ngưỡng các concept lắp đặt Photobooth ngoài đời thực. VibeBooth hỗ trợ biến hóa phong cách thiết kế để cỗ máy hoàn toàn "ăn khớp" với thẩm mỹ và tệp khách hàng của bạn.
+                        <p className="text-lg leading-relaxed text-slate-500">
+                            Chiêm ngưỡng các concept lắp đặt thực tế. VibeBooth hỗ trợ tùy biến thiết kế để cỗ máy hoàn toàn "ăn khớp" với không gian của bạn.
                         </p>
                     </motion.div>
                 </div>
 
-                {/* CSS grid custom specifically for 5 items (2 top, 3 bottom on desktop) */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-                    {boothModels.map((booth, idx) => (
-                        <motion.div
-                            key={booth.id}
-                            initial={{ opacity: 0, scale: 0.95 }}
-                            whileInView={{ opacity: 1, scale: 1 }}
-                            viewport={{ once: true }}
-                            transition={{ delay: idx * 0.1 }}
-                            /* Center the last two items in a 3-column grid */
-                            className={idx >= 3 ? "lg:col-span-1" : ""}
-                        >
-                            <Card className="overflow-hidden border-slate-200/50 shadow-md hover:shadow-xl transition-all duration-300 h-full flex flex-col group rounded-2xl bg-white">
-                                <div className="relative aspect-[3/4] sm:aspect-[4/5] overflow-hidden bg-slate-100">
-                                    <div className="absolute top-4 left-4 z-20">
-                                        <span className="bg-slate-900/80 backdrop-blur-md text-white text-xs font-semibold px-3 py-1.5 rounded-full shadow-sm">
+                {/* Grid Cards */}
+                <motion.div 
+                    className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3"
+                    variants={containerVariants}
+                    initial="hidden"
+                    whileInView="show"
+                    viewport={{ once: true, margin: "-50px" }}
+                >
+                    {boothModels.map((booth) => (
+                        <motion.div key={booth.id} variants={itemVariants} className="flex h-full">
+                            <Card className="flex flex-col w-full h-full overflow-hidden transition-all duration-500 bg-white border-transparent shadow-md rounded-3xl hover:shadow-2xl hover:shadow-teal-500/10 hover:-translate-y-2 group">
+                                
+                                {/* Image Container */}
+                                <div className="relative aspect-[4/5] overflow-hidden bg-slate-100">
+                                    {/* Glassmorphism Badge */}
+                                    <div className="absolute z-20 top-4 right-4">
+                                        <span className="px-3 py-1.5 text-xs font-bold tracking-wide text-slate-800 bg-white/85 backdrop-blur-md rounded-full shadow-sm">
                                             {booth.badge}
                                         </span>
                                     </div>
 
-                                    {/* Dùng div nền xám dán sẵn hoặc hiển thị ảnh */}
                                     <img
                                         src={booth.img}
                                         alt={booth.title}
-                                        className="w-full h-full object-cover transition-transform duration-700"
+                                        className="object-cover w-full h-full transition-transform duration-700 ease-out group-hover:scale-110"
                                         onError={(e) => {
-                                            // Fallback cho ảnh placeholder nếu User chưa kịp up hình
-                                            (e.currentTarget as HTMLImageElement).src = `https://placehold.co/600x800/e2e8f0/64748b?text=Booth+${booth.id}`;
+                                            e.currentTarget.src = `https://placehold.co/600x800/f8fafc/94a3b8?text=Booth+${booth.id}`;
                                         }}
                                     />
 
-                                    {/* Subtle overlay gradient */}
-                                    <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-slate-900/0 to-transparent opacity-60"></div>
+                                    {/* Gradient overlay to make text transition smoother */}
+                                    <div className="absolute inset-0 transition-opacity duration-500 opacity-0 bg-gradient-to-t from-slate-900/50 via-transparent to-transparent group-hover:opacity-100"></div>
                                 </div>
 
-                                <CardContent className="p-6 flex-1 flex flex-col">
-                                    <h3 className="text-xl font-bold text-slate-900 mb-2 group-hover:text-teal-600 transition-colors">{booth.title}</h3>
-                                    <p className="text-slate-600 text-sm leading-relaxed mb-4 flex-1">{booth.desc}</p>
+                                {/* Content Container */}
+                                <CardContent className="relative z-10 flex flex-col flex-1 p-6 bg-white">
+                                    <h3 className="mb-3 text-xl font-bold transition-colors duration-300 text-slate-900 group-hover:text-teal-600 line-clamp-1">
+                                        {booth.title}
+                                    </h3>
+                                    
+                                    <p className="flex-1 mb-6 text-sm leading-relaxed text-slate-500 line-clamp-3">
+                                        {booth.desc}
+                                    </p>
 
-                                    <div className="space-y-2 pt-4 border-t border-slate-100">
-                                        <p className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">Gợi ý lắp đặt:</p>
-                                        {booth.idealFor.map((ideal, index) => (
-                                            <div key={index} className="flex items-center gap-2 text-sm text-slate-700">
-                                                <CheckCircle2 className="w-4 h-4 text-teal-500 shrink-0" />
-                                                <span>{ideal}</span>
-                                            </div>
-                                        ))}
+                                    {/* Modern Ideal For Tags */}
+                                    <div className="pt-5 mt-auto border-t border-slate-100">
+                                        <p className="flex items-center gap-1.5 mb-3 text-xs font-semibold tracking-wider text-slate-400 uppercase">
+                                            Gợi ý lắp đặt
+                                        </p>
+                                        <div className="flex flex-wrap gap-2">
+                                            {booth.idealFor.map((ideal, index) => (
+                                                <span 
+                                                    key={index} 
+                                                    className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium transition-colors bg-slate-50 text-slate-600 rounded-lg group-hover:bg-teal-50 border border-slate-100 group-hover:border-teal-100 group-hover:text-teal-700"
+                                                >
+                                                    <CheckCircle2 className="w-3.5 h-3.5 text-teal-500" />
+                                                    {ideal}
+                                                </span>
+                                            ))}
+                                        </div>
                                     </div>
                                 </CardContent>
                             </Card>
                         </motion.div>
                     ))}
-                </div>
+                </motion.div>
 
             </div>
         </section>
