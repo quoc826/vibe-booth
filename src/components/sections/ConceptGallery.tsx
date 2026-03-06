@@ -5,23 +5,23 @@ import { Card, CardContent } from "@/components/ui/card";
 const concepts = [
     {
         id: 1,
-        title: 'Pink Glamour Booth',
-        desc: 'Bán chạy nhất cho quán cafe hoặc không gian mở trong giới trẻ.',
-        img: '/shop-4.jpg',
+        title: 'Eco-Green Booth',
+        desc: 'Thiết kế khung nhôm tối giản kết hợp dây leo tự nhiên, biến cỗ máy thành món đồ decor tinh tế, hòa quyện hoàn hảo vào các không gian cafe sân vườn hoặc studio phong cách chữa lành.', 
+        img: '/shop-04.jpg',
         badge: 'Trending'
     },
     {
         id: 2,
-        title: 'Industrial Automat Booth',
-        desc: 'Thiết kế kim loại nguyên khối mang đậm phong cách công nghiệp, kết hợp bảng hiệu retro trứ danh. Lựa chọn phá cách cho các không gian underground, studio hoặc quán cafe minimalist.',
-        img: '/shop-5.jpg',
-        badge: 'Industrial'
+        title: 'Urban Garden White',
+        desc: 'Thiết kế trắng tinh khôi kết hợp rèm xanh olive dịu mát, tạo điểm nhấn thanh lịch giữa không gian ngập tràn ánh sáng và cây xanh.',
+        img: '/shop-05.jpg',
+        badge: 'Elegant'
     },
     {
         id: 3,
-        title: 'Neon Nightclub Booth',
-        desc: 'Giải pháp tuyệt vời cho lễ hội âm nhạc hoặc bar, pub.',
-        img: '/shop-6.jpg',
+        title: 'Skyview Villa Booth',
+        desc: 'Thiết kế khung nhôm thanh mảnh kết hợp rèm nhung đỏ quý phái, hòa hợp tuyệt đối với những không gian có view kính panorama hoặc sảnh tiệc cao cấp.',
+        img: '/shop-06.jpg',
         badge: 'Events'
     }
 ];
@@ -55,7 +55,7 @@ export default function ConceptGallery() {
                 </div>
 
                 {/* Grid Cards */}
-                <motion.div 
+                <motion.div
                     className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3"
                     initial="hidden"
                     whileInView="show"
@@ -71,8 +71,8 @@ export default function ConceptGallery() {
                     }}
                 >
                     {concepts.map((concept) => (
-                        <motion.div 
-                            key={concept.id} 
+                        <motion.div
+                            key={concept.id}
                             variants={{
                                 hidden: { opacity: 0, y: 30 },
                                 show: { opacity: 1, y: 0, transition: { type: "spring", stiffness: 80, damping: 15 } }
@@ -80,7 +80,7 @@ export default function ConceptGallery() {
                             className="flex h-full"
                         >
                             <Card className="flex flex-col w-full h-full overflow-hidden transition-all duration-500 bg-white border-transparent shadow-md rounded-3xl hover:shadow-2xl hover:shadow-pink-500/10 hover:-translate-y-2 group">
-                                
+
                                 {/* Image Container */}
                                 <div className="relative overflow-hidden aspect-[4/5] bg-slate-100">
                                     {/* Glassmorphism Badge */}
