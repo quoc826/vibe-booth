@@ -133,7 +133,7 @@ export default function TrendingBooths() {
                                     {/* Modern Ideal For Tags */}
                                     <div className="pt-5 mt-auto border-t border-slate-100">
                                         <p className="flex items-center gap-1.5 mb-3 text-xs font-semibold tracking-wider text-slate-400 uppercase">
-                                            Gợi ý lắp đặt
+                                            {t('trending.ideal_for')}
                                         </p>
                                         <div className="flex flex-wrap gap-2">
                                             {((t(`trending.booths.${booth.id - 1}.idealFor`, { returnObjects: true, defaultValue: [] }) as unknown as string[]) || []).map((ideal: string, index: number) => (

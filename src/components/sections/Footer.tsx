@@ -23,7 +23,7 @@ export default function Footer() {
                             </span>
                         </div>
                         <p className="text-sm text-slate-400 leading-relaxed">
-                            {t('footer.brand_tagline')} - VibeBooth chuyên xây dựng hệ thống Photobooth thông minh và cung cấp giải pháp không gian tối ưu cho mọi mô hình.
+                            {t('footer.brand_tagline')} - {t('footer.brand_description')}
                         </p>
                         <div className="flex gap-4">
                             <a href="https://www.facebook.com/profile.php?id=61573162288644" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-slate-900 border border-slate-800 flex items-center justify-center hover:bg-teal-500 hover:border-teal-400 hover:text-white transition-all text-slate-400">
@@ -40,7 +40,7 @@ export default function Footer() {
 
                     {/* Quick Links */}
                     <div>
-                        <h4 className="text-white font-bold mb-6">{t('footer.quick_links_title', 'Quick Links')}</h4>
+                        <h4 className="text-white font-bold mb-6">{t('footer.quick_links_title')}</h4>
                         <ul className="flex flex-col gap-3">
                             {quickLinks.map((link: any, i: number) => (
                                 <li key={i}><a href="#" className="hover:text-teal-400 transition-colors">{link}</a></li>
@@ -50,7 +50,7 @@ export default function Footer() {
 
                     {/* Solutions */}
                     <div>
-                        <h4 className="text-white font-bold mb-6">{t('footer.solutions_title', 'Solutions')}</h4>
+                        <h4 className="text-white font-bold mb-6">{t('footer.solutions_title')}</h4>
                         <ul className="flex flex-col gap-3">
                             {solutions.map((s: any, i: number) => (
                                 <li key={i}><a href="#" className="hover:text-pink-400 transition-colors">{s}</a></li>
@@ -60,7 +60,7 @@ export default function Footer() {
 
                     {/* Contact */}
                     <div>
-                        <h4 className="text-white font-bold mb-6">{t('footer.contact_title', 'Contact')}</h4>
+                        <h4 className="text-white font-bold mb-6">{t('footer.contact_title')}</h4>
                         <ul className="flex flex-col gap-4 text-sm">
                             <li className="flex items-start gap-3">
                                 <MapPin className="w-5 h-5 text-teal-400 shrink-0 mt-0.5" />

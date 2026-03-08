@@ -62,7 +62,11 @@
 },
 "footer": {
     "brand_tagline":"你需要的 vibe，我们来实现。",
+    "brand_description":"VibeBooth 专门从事构建智能照相亭系统，为所有业务模式提供最优的空间解决方案。",
+    "quick_links_title":"快速链接",
     "quick_links":["关于我们","软件功能","连锁解决方案","投资定价"],
+    "solutions_title":"解决方案",
+    "contact_title":"联系我们",
     "solutions":["咖啡厅照相亭","活动照相亭","专用店铺搭建","品牌特许经营"],
     "contact":{
         "address":"胡志明市第九区龙胜美坊阮显路512号",
@@ -77,7 +81,50 @@
     "badge":"投资定价",
     "title":"一次性投资，长期回报",
     "desc":"选择适合您业务规模的方案。我们透明所有成本，方便您计算投资回报。",
-    "plans": [],
+    "hardware_label":"硬件",
+    "software_label":"软件（月度）",
+    "plans": [
+        {
+            "name": "初创版",
+            "theme": "Vibe 基础版",
+            "hardware": "¥13,000",
+            "software": "¥250/月",
+            "description": "适合想要在小咖啡馆/工作室尝试该模式的个人。",
+            "features": ["使用基本滤镜预设", "高速 QR 分享系统", "QR 自动在线支付", "远程技术支持和错误修复"],
+            "highlight": false,
+            "color": "from-slate-100 to-slate-50"
+        },
+        {
+            "name": "专业版",
+            "theme": "Pro AI Vibe",
+            "hardware": "¥16,500",
+            "software": "¥500/月",
+            "description": "畅销版。适合需要绝对 AI 差异化的专业店铺。",
+            "features": ["完整 AI 功能：漫画风、AI 修肤", "按品牌 vibe 创建自定义颜色滤镜", "灵活的自定义相框设计", "手机管理仪表板", "最新 AI 趋势功能更新"],
+            "highlight": true,
+            "color": "from-teal-100 via-emerald-50 to-cyan-100"
+        },
+        {
+            "name": "生态系",
+            "theme": "企业版",
+            "hardware": "联系我们",
+            "software": "¥1,000/月",
+            "description": "适合想要领导连锁或特许经营业务的投资者。",
+            "features": ["白标：删除 VibeBooth，显示您自己的品牌", "多分支管理访问", "复杂的集成支付系统", "月度现场维护"],
+            "highlight": false,
+            "color": "from-pink-100 to-rose-50"
+        },
+        {
+            "name": "360° 服务",
+            "theme": "完整解决方案",
+            "hardware": "定制",
+            "software": "完整交付",
+            "description": "完全钥匙交付 A-Z。总店铺设置 ~¥83,000-165,000。",
+            "features": ["概念设计与 3D（¥11,500-23,000）", "施工与装修（¥33,000-90,000）", "家具与储物架（¥16,500-33,000）", "主题配件和装饰品组合", "运营培训（购买 2 台机器以上免费）"],
+            "highlight": false,
+            "color": "from-amber-100 to-yellow-50"
+        }
+    ],
     "best_seller":"最畅销",
     "button_text":"申请该方案咨询",
     "why_title":"为什么 VibeBooth 的价格让您安心？",
@@ -144,5 +191,16 @@
             "idealFor": ["精酿啤酒吧", "酒吧", "娱乐综合体"]
         }
     ]
+},
+"promoPopup": {
+    "title": "开业优惠促销",
+    "subtitle": "时间限制",
+    "plan_6months": "6个月初创套餐",
+    "plan_6months_price": "仅需 350万元 / 台",
+    "plan_12months": "12个月套餐",
+    "plan_12months_price": "仅需 500万元 / 台",
+    "description": "以特殊推介价格推动您的 AI 照相亭业务",
+    "cta": "获取报价",
+    "close": "关闭"
 }
 }

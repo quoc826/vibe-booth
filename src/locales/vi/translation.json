@@ -62,7 +62,11 @@
 },
 "footer": {
     "brand_tagline":"Cái bạn cần là vibe. Chúng tôi sẽ hiện thực nó.",
+    "brand_description":"VibeBooth chuyên xây dựng hệ thống Photobooth thông minh và cung cấp giải pháp không gian tối ưu cho mọi mô hình.",
+    "quick_links_title":"Liên kết nhanh",
     "quick_links":["Về chúng tôi","Tính năng phần mềm","Giải pháp chuỗi","Bảng giá đầu tư"],
+    "solutions_title":"Giải pháp",
+    "contact_title":"Liên hệ",
     "solutions":["Photobooth cho Quán Cafe","Photobooth Sự kiện","Setup Shop Chuyên Dụng","Nhượng Quyền Thương Hiệu"],
     "contact":{
         "address":"Số 512 đường Nguyễn Xiển, Phường Long Thạnh Mỹ, Quận 9, TP. Hồ Chí Minh",
@@ -77,7 +81,50 @@
     "badge":"Bảng giá Đầu Tư",
     "title":"Đầu tư một lần, Lợi nhuận dài hạn",
     "desc":"Lựa chọn gói đầu tư phù hợp với quy mô kinh doanh của bạn. Chúng tôi minh bạch mọi chi phí để bạn dễ dàng tính toán ROI.",
-    "plans": [],
+    "hardware_label":"Phần cứng",
+    "software_label":"Phần mềm (Thuê bao)",
+    "plans": [
+        {
+            "name": "Khởi Nghiệp",
+            "theme": "Vibe Essentials",
+            "hardware": "60.000.000 VNĐ",
+            "software": "1.000.000 VNĐ/tháng",
+            "description": "Dành cho cá nhân muốn thử sức với mô hình đặt tại cafe/studio nhỏ.",
+            "features": ["Sử dụng các bộ lọc (preset) cơ bản", "Hệ thống xuất ảnh QR Sharing tốc độ cao", "Thanh toán online qua QR tự động", "Hỗ trợ kỹ thuật & vá lỗi từ xa"],
+            "highlight": false,
+            "color": "from-slate-100 to-slate-50"
+        },
+        {
+            "name": "Chuyên Nghiệp",
+            "theme": "Pro AI Vibe",
+            "hardware": "75.000.000 VNĐ",
+            "software": "2.000.000 VNĐ/tháng",
+            "description": "Bán chạy nhất. Cho shop chuyên dụng cần sự khác biệt tuyệt đối về AI.",
+            "features": ["Full tính năng AI: Cartoonify, AI Retouch", "Tự tạo bộ lọc màu riêng theo brand vibe", "Thiết kế Custom Frame linh hoạt", "Dashboard quản lý trên điện thoại", "Update tính năng AI Trending mới nhất"],
+            "highlight": true,
+            "color": "from-teal-100 via-emerald-50 to-cyan-100"
+        },
+        {
+            "name": "Hệ Sinh Thái",
+            "theme": "Enterprise",
+            "hardware": "Liên hệ",
+            "software": "4.000.000 VNĐ/tháng",
+            "description": "Cho chủ đầu tư muốn chiếm lĩnh chuỗi hoặc nhượng quyền.",
+            "features": ["White Label: Gỡ logo VibeBooth, hiển thị brand riêng", "Phân quyền quản lý cho nhiều chi nhánh", "Tích hợp đồng bộ thanh toán phức hợp", "Bảo trì tận nơi định kỳ mỗi tháng"],
+            "highlight": false,
+            "color": "from-pink-100 to-rose-50"
+        },
+        {
+            "name": "Dịch Vụ 360°",
+            "theme": "Turnkey Solution",
+            "hardware": "Custom",
+            "software": "Turnkey",
+            "description": "Bàn giao chìa khóa trao tay từ A-Z. Tổng chi phí setup shop ~35M - 75M.",
+            "features": ["Thiết kế Concept & 3D (5M-10M)", "Thi công & Decor (15M-40M)", "Nội thất & Tủ kệ (7M-15M)", "Combo phụ kiện Props Thematic", "Đào tạo vận hành lễ tân (Miễn phí từ 2 máy)"],
+            "highlight": false,
+            "color": "from-amber-100 to-yellow-50"
+        }
+    ],
     "best_seller":"Bán chạy nhất",
     "button_text":"Nhận tư vấn gói này",
     "why_title":"Tại sao giá VibeBooth khiến bạn an tâm?",
@@ -144,5 +191,16 @@
         "idealFor": ["Bia craft", "Quán Pub", "Tổ hợp giải trí"]
       }
     ]
+  },
+  "promoPopup": {
+    "title": "Khuyến Mãi Khai Trương",
+    "subtitle": "Thời Gian Giới Hạn",
+    "plan_6months": "Gói Khởi Nghiệp 6 Tháng",
+    "plan_6months_price": "Chỉ từ 3.5 Tr / Máy",
+    "plan_12months": "Gói 12 Tháng",
+    "plan_12months_price": "Chỉ từ 5 Tr / Máy",
+    "description": "Khởi động kinh doanh Photobooth AI của bạn với giá ưu đãi đặc biệt",
+    "cta": "Nhận Báo Giá",
+    "close": "Đóng"
 }
 }

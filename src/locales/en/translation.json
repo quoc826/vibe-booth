@@ -62,7 +62,11 @@
     },
     "footer": {
         "brand_tagline": "You need the vibe. We'll make it reality.",
+        "brand_description": "VibeBooth specializes in building intelligent Photobooth systems and provides optimal space solutions for all business models.",
+        "quick_links_title": "Quick Links",
         "quick_links": ["About Us", "Software Features", "Chain Solutions", "Investment Pricing"],
+        "solutions_title": "Solutions",
+        "contact_title": "Contact",
         "solutions": ["Photobooth for Cafes", "Event Photobooth", "Dedicated Shop Setup", "Brand Franchising"],
         "contact": {
             "address": "No.512 Nguyen Xien, Long Thanh My, District 9, Ho Chi Minh City",
@@ -77,7 +81,50 @@
         "badge": "Investment Pricing",
         "title": "One-time investment, long-term returns",
         "desc": "Choose the plan that fits your business scale. We make all costs transparent so you can calculate ROI easily.",
-        "plans": [],
+        "hardware_label": "Hardware",
+        "software_label": "Software (Monthly)",
+        "plans": [
+            {
+                "name": "Startup",
+                "theme": "Vibe Essentials",
+                "hardware": "$2,000 USD",
+                "software": "$35/month USD",
+                "description": "For individuals wanting to try the model at small cafes/studios.",
+                "features": ["Use basic filter presets", "High-speed QR sharing system", "Auto online payment via QR", "Remote technical support & bug fixes"],
+                "highlight": false,
+                "color": "from-slate-100 to-slate-50"
+            },
+            {
+                "name": "Professional",
+                "theme": "Pro AI Vibe",
+                "hardware": "$2,500 USD",
+                "software": "$70/month USD",
+                "description": "Best seller. For dedicated shops needing absolute AI differentiation.",
+                "features": ["Full AI features: Cartoonify, AI Retouch", "Create custom color filters by brand vibe", "Flexible custom frame design", "Phone-based management dashboard", "Latest AI trending feature updates"],
+                "highlight": true,
+                "color": "from-teal-100 via-emerald-50 to-cyan-100"
+            },
+            {
+                "name": "Ecosystem",
+                "theme": "Enterprise",
+                "hardware": "Contact us",
+                "software": "$140/month USD",
+                "description": "For investors wanting to lead chains or franchise operations.",
+                "features": ["White Label: Remove VibeBooth, show your own brand", "Multi-branch management access", "Complex integrated payment systems", "Monthly on-site maintenance"],
+                "highlight": false,
+                "color": "from-pink-100 to-rose-50"
+            },
+            {
+                "name": "360° Service",
+                "theme": "Turnkey Solution",
+                "hardware": "Custom",
+                "software": "Turnkey",
+                "description": "Complete turnkey A-Z handover. Total shop setup ~$1,200-2,500 USD.",
+                "features": ["Concept design & 3D ($170-340)", "Construction & decor ($500-1,350)", "Furniture & shelving ($240-500)", "Thematic props & accessories combo", "Operations training (Free from 2 machines)"],
+                "highlight": false,
+                "color": "from-amber-100 to-yellow-50"
+            }
+        ],
         "best_seller": "Best seller",
         "button_text": "Get consultation for this plan",
         "why_title": "Why VibeBooth pricing gives you confidence?",
@@ -144,5 +191,16 @@
                 "idealFor": ["Craft Beer Bars", "Pubs", "Entertainment Complexes"]
             }
         ]
-    }
+    },
+    "promoPopup": {
+    "title": "Grand Opening Promotion",
+    "subtitle": "Limited Time Only",
+    "plan_6months": "6-Month Startup Package",
+    "plan_6months_price": "From 3.5M / Machine",
+    "plan_12months": "12-Month Package",
+    "plan_12months_price": "From 5M / Machine",
+    "description": "Launch your AI Photobooth business with our special introductory pricing",
+    "cta": "Get a Quote",
+    "close": "Close"
+}
 }
