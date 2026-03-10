@@ -26,13 +26,13 @@ export default function Hero() {
     };
 
     return (
-        <section className="relative pt-32 pb-20 md:pt-48 md:pb-32 overflow-hidden min-h-screen flex items-center">
+        <section className="relative flex items-center min-h-screen pt-32 pb-20 overflow-hidden md:pt-48 md:pb-32">
             {/* Decorative Blob */}
-            <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-teal-300/30 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob"></div>
-            <div className="absolute top-1/3 right-1/4 w-96 h-96 bg-pink-300/30 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob animation-delay-2000"></div>
+            <div className="absolute rounded-full top-1/4 left-1/4 w-96 h-96 bg-teal-300/30 mix-blend-multiply filter blur-3xl opacity-70 animate-blob"></div>
+            <div className="absolute rounded-full top-1/3 right-1/4 w-96 h-96 bg-pink-300/30 mix-blend-multiply filter blur-3xl opacity-70 animate-blob animation-delay-2000"></div>
 
-            <div className="container mx-auto px-4 md:px-6 relative z-10">
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center">
+            <div className="container relative z-10 px-4 mx-auto md:px-6">
+                <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-8">
 
                     {/* Text Content */}
                     <motion.div
@@ -51,20 +51,20 @@ export default function Hero() {
                             <span className="text-gradient">{t('hero.title_2', 'Vốn ít, Công nghệ dẫn đầu.')}</span>
                         </motion.h1>
 
-                        <motion.p variants={itemVariants} className="text-lg md:text-xl text-slate-600 leading-relaxed max-w-xl">
+                        <motion.p variants={itemVariants} className="max-w-xl text-lg leading-relaxed md:text-xl text-slate-600">
                             {t('hero.desc_1', 'Cung cấp trọn gói phần cứng và phần mềm quản lý thông minh. Tích hợp AI tạo hình độc quyền giúp bạn khác biệt hoàn toàn với thị trường và mang lại ')}<strong className="text-slate-900">{t('hero.desc_strong', 'lợi nhuận bền vững')}</strong>.
                         </motion.p>
 
-                        <motion.p variants={itemVariants} className="text-base md:text-lg text-slate-500 italic max-w-xl border-l-4 border-teal-400 pl-4 py-1">
+                        <motion.p variants={itemVariants} className="max-w-xl py-1 pl-4 text-base italic border-l-4 border-teal-400 md:text-lg text-slate-500">
                             {t('hero.desc_2', '"Được phát triển bởi các kỹ sư phần mềm cao tay hiện đang công tác trong và ngoài nước, có kinh nghiệm sâu về ứng dụng AI, hứa hẹn đáp ứng mọi nhu cầu tùy biến của bạn."')}
                         </motion.p>
 
-                        <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4 mt-4">
-                            <Button size="lg" className="bg-teal-500 hover:bg-teal-600 text-white rounded-full h-14 px-8 text-base shadow-xl shadow-teal-500/20 group">
+                        <motion.div variants={itemVariants} className="flex flex-col gap-4 mt-4 sm:flex-row">
+                            <Button size="lg" className="px-8 text-base text-white bg-teal-500 rounded-full shadow-xl hover:bg-teal-600 h-14 shadow-teal-500/20 group">
                                 {t('hero.btn_quote', 'Nhận báo giá ngay')}
-                                <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                                <ArrowRight className="w-5 h-5 ml-2 transition-transform group-hover:translate-x-1" />
                             </Button>
-                            <Button size="lg" variant="outline" className="rounded-full h-14 px-8 text-base bg-white/50 backdrop-blur-sm border-slate-200/50 hover:bg-slate-50">
+                            <Button size="lg" variant="outline" className="px-8 text-base rounded-full h-14 bg-white/50 backdrop-blur-sm border-slate-200/50 hover:bg-slate-50">
                                 {t('hero.btn_demo', 'Xem Demo Phần Mềm')}
                             </Button>
                         </motion.div>
@@ -72,26 +72,26 @@ export default function Hero() {
 
                     {/* Visual Content - 3D Mockup */}
                     <motion.div
-                        className="relative lg:ml-auto w-full max-w-lg xl:max-w-xl"
+                        className="relative w-full max-w-lg lg:ml-auto xl:max-w-xl"
                         initial={{ opacity: 0, scale: 0.9, rotate: -2 }}
                         animate={{ opacity: 1, scale: 1, rotate: 0 }}
                         transition={{ duration: 0.8, type: "spring", bounce: 0.4, delay: 0.4 }}
                     >
                         <div className="glass-dark absolute inset-0 rounded-[2.5rem] transform -rotate-3 scale-[0.98] z-0 opacity-10"></div>
                         <div className="glass rounded-[2rem] p-4 relative z-10 overflow-hidden transform hover:-translate-y-2 transition-transform duration-500">
-                            <div className="absolute inset-0 bg-gradient-to-tr from-pink-100/40 via-transparent to-teal-100/40 opacity-50"></div>
+                            <div className="absolute inset-0 opacity-50 bg-gradient-to-tr from-pink-100/40 via-transparent to-teal-100/40"></div>
                             <img
                                 src="/photobooth_3d.png"
                                 alt="VibeBooth 3D Teardrop Camper Setup"
-                                className="w-full h-auto rounded-2xl object-cover relative z-10 drop-shadow-2xl"
+                                className="relative z-10 object-cover w-full h-auto rounded-2xl drop-shadow-2xl"
                             />
                             {/* Floating feature badges */}
                             <motion.div
                                 animate={{ y: [0, -10, 0] }}
                                 transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-                                className="absolute -left-6 top-1/4 glass rounded-xl p-3 z-20 flex items-center gap-3 shadow-xl"
+                                className="absolute z-20 flex items-center gap-3 p-3 shadow-xl -left-6 top-1/4 glass rounded-xl"
                             >
-                                <div className="w-10 h-10 rounded-full bg-teal-100 flex items-center justify-center">
+                                <div className="flex items-center justify-center w-10 h-10 bg-teal-100 rounded-full">
                                     ✨
                                 </div>
                                 <div className="text-sm font-semibold text-slate-800">AI Magic</div>
@@ -100,9 +100,9 @@ export default function Hero() {
                             <motion.div
                                 animate={{ y: [0, 10, 0] }}
                                 transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-                                className="absolute -right-6 bottom-1/4 glass rounded-xl p-3 z-20 flex items-center gap-3 shadow-xl"
+                                className="absolute z-20 flex items-center gap-3 p-3 shadow-xl -right-6 bottom-1/4 glass rounded-xl"
                             >
-                                <div className="w-10 h-10 rounded-full bg-pink-100 flex items-center justify-center">
+                                <div className="flex items-center justify-center w-10 h-10 bg-pink-100 rounded-full">
                                     🚀
                                 </div>
                                 <div className="text-sm font-semibold text-slate-800">Auto Print</div>

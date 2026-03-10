@@ -9,6 +9,19 @@ export default function PricingOptions() {
     const pricingPlans = t('pricing.plans', { returnObjects: true }) as any[];
     const whyUs = t('pricing.why', { returnObjects: true }) as any[];
     
+    // Định nghĩa lại toàn bộ style (Nền Gradient 3 màu + Viền) cho từng gói riêng biệt
+    const cardStyles = [
+        "bg-gradient-to-bl from-slate-100 via-gray-50 to-slate-200 ring-4 ring-slate-300/60",     // 0: Khởi nghiệp
+        "bg-gradient-to-bl from-teal-100 via-emerald-50 to-cyan-100 ring-4 ring-teal-500/30",     // 1: Chuyên nghiệp (Giữ nguyên)
+        "bg-gradient-to-bl from-pink-100 via-rose-50 to-fuchsia-100 ring-4 ring-pink-400/40",     // 2: Hệ sinh thái
+        "bg-gradient-to-bl from-amber-100 via-yellow-50 to-orange-100 ring-4 ring-amber-400/40"   // 3: Dịch vụ
+    ];
+
+    // Hàm xử lý khi click nút nhận tư vấn
+    const handleConsultClick = () => {
+        window.open('https://www.facebook.com/profile.php?id=61573162288644', '_blank');
+    };
+
     return (
         <section id="pricing" className="py-24 bg-white">
             <div className="container px-4 mx-auto md:px-6">
@@ -35,10 +48,9 @@ export default function PricingOptions() {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true, margin: "-50px" }}
                             transition={{ delay: idx * 0.1 }}
-                            className={`relative rounded-3xl p-6 sm:p-8 flex flex-col h-full bg-gradient-to-bl ${plan.color} ${plan.highlight
-                                    ? 'ring-4 ring-teal-500/30 scale-100 lg:scale-105 z-10 shadow-2xl'
-                                    : 'border border-slate-200/50 shadow-lg scale-100'
-                                } transition-transform`}
+                            className={`relative rounded-3xl p-6 sm:p-8 flex flex-col h-full ${cardStyles[idx]} ${
+                                plan.highlight ? 'scale-100 lg:scale-105 z-10 shadow-2xl' : 'shadow-lg scale-100'
+                            } transition-transform`}
                         >
                             {plan.highlight && (
                                 <div className="absolute top-0 -translate-x-1/2 -translate-y-1/2 left-1/2">
@@ -79,7 +91,9 @@ export default function PricingOptions() {
                                 ))}
                             </ul>
 
+                            {/* CẬP NHẬT: Thêm sự kiện onClick vào Button */}
                             <Button
+                                onClick={handleConsultClick}
                                 variant={plan.button as any}
                                 className={`w-full rounded-2xl h-12 font-semibold ${plan.button === 'default' ? 'bg-teal-600 hover:bg-teal-700 shadow-xl shadow-teal-500/20' : 'bg-white hover:bg-slate-50 border-slate-200 text-slate-900'
                                     }`}

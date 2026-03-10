@@ -87,8 +87,8 @@
             {
                 "name": "Startup",
                 "theme": "Vibe Essentials",
-                "hardware": "$2,000 USD",
-                "software": "$35/month USD",
+                "hardware": "60,000,000 VNĐ",
+                "software": "1,000,000 VNĐ/month",
                 "description": "For individuals wanting to try the model at small cafes/studios.",
                 "features": ["Use basic filter presets", "High-speed QR sharing system", "Auto online payment via QR", "Remote technical support & bug fixes"],
                 "highlight": false,
@@ -97,8 +97,8 @@
             {
                 "name": "Professional",
                 "theme": "Pro AI Vibe",
-                "hardware": "$2,500 USD",
-                "software": "$70/month USD",
+                "hardware": "75,000,000 VNĐ",
+                "software": "2,000,000 VNĐ/month",
                 "description": "Best seller. For dedicated shops needing absolute AI differentiation.",
                 "features": ["Full AI features: Cartoonify, AI Retouch", "Create custom color filters by brand vibe", "Flexible custom frame design", "Phone-based management dashboard", "Latest AI trending feature updates"],
                 "highlight": true,
@@ -108,7 +108,7 @@
                 "name": "Ecosystem",
                 "theme": "Enterprise",
                 "hardware": "Contact us",
-                "software": "$140/month USD",
+                "software": "4,000,000 VNĐ/month",
                 "description": "For investors wanting to lead chains or franchise operations.",
                 "features": ["White Label: Remove VibeBooth, show your own brand", "Multi-branch management access", "Complex integrated payment systems", "Monthly on-site maintenance"],
                 "highlight": false,
@@ -119,8 +119,8 @@
                 "theme": "Turnkey Solution",
                 "hardware": "Custom",
                 "software": "Turnkey",
-                "description": "Complete turnkey A-Z handover. Total shop setup ~$1,200-2,500 USD.",
-                "features": ["Concept design & 3D ($170-340)", "Construction & decor ($500-1,350)", "Furniture & shelving ($240-500)", "Thematic props & accessories combo", "Operations training (Free from 2 machines)"],
+                "description": "Complete turnkey A-Z handover. Total shop setup ~35M - 75M VNĐ.",
+                "features": ["Concept design & 3D (5M-10M VNĐ)", "Construction & decor (15M-40M VNĐ)", "Furniture & shelving (7M-15M VNĐ)", "Thematic props & accessories combo", "Operations training (Free from 2 machines)"],
                 "highlight": false,
                 "color": "from-amber-100 to-yellow-50"
             }
@@ -146,7 +146,17 @@
         "ops_desc": "Manage your Photobooth chain from your phone - perfect for non-technical owners.",
         "roadmap_title": "VibeBooth Startup Roadmap",
         "roadmap_desc": "A 5-step process that helps you open within 14-30 days.",
-        "roadmap_steps": ["Site consultation", "Space design", "Equipment installation", "Software setup", "Grand opening"]
+        "roadmap_steps": ["Site consultation", "Space design", "Equipment installation", "Software setup", "Grand opening"],
+        "space_features": [
+            { "title": "Concept Setup Consulting", "desc": "Shop designs ranging from modern and minimalist to cute Korean styles." },
+            { "title": "Diverse Booth Systems", "desc": "Customize multiple photo rooms (each with a different vibe) to optimize revenue." },
+            { "title": "Accessory Display Racks", "desc": "Suggestions on arranging headbands, glasses, and props for a smooth experience." }
+        ],
+        "ops_features": [
+            { "title": "Smart Payment", "desc": "Online (QR) and offline (cash) payments, fully automating the process." },
+            { "title": "Remote Dashboard", "desc": "Track revenue, paper roll status, and supplies in real-time." },
+            { "title": "24/7 Support", "desc": "Technical support from our engineering team to keep machines running at 100%." }
+        ]
     },
     "trending": {
         "badge": "Flexible Module Designs",
@@ -193,14 +203,14 @@
         ]
     },
     "promoPopup": {
-    "title": "Grand Opening Promotion",
-    "subtitle": "Limited Time Only",
-    "plan_6months": "6-Month Startup Package",
-    "plan_6months_price": "From 3.5M / Machine",
-    "plan_12months": "12-Month Package",
-    "plan_12months_price": "From 5M / Machine",
-    "description": "Launch your AI Photobooth business with our special introductory pricing",
-    "cta": "Get a Quote",
-    "close": "Close"
-}
+        "title": "Grand Opening Promotion",
+        "subtitle": "Limited Time Only",
+        "plan_6months": "6-Month Startup Package",
+        "plan_6months_price": "From 3.5M VNĐ / Machine",
+        "plan_12months": "12-Month Package",
+        "plan_12months_price": "From 5M VNĐ / Machine",
+        "description": "Launch your AI Photobooth business with our special introductory pricing",
+        "cta": "Get a Quote",
+        "close": "Close"
+    }
 }

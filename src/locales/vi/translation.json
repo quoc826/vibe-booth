@@ -21,186 +21,196 @@
         "en": "English",
         "zh": "中文"
     },
-  "commitment": {
-    "title_part1": "Tâm huyết & Trách nhiệm",
-    "title_highlight": "Trên từng dự án",
-    "p1": "Khi tiếp nhận dự án, VibeBooth coi đó là một 'đứa con tinh thần' thực thụ. Chúng tôi không giao cho bạn một đống linh kiện vô hồn, chúng tôi bàn giao một máy in tiền trơn tru.",
-    "quote": "Từ những ý tưởng trên giấy đến bản vẽ kỹ thuật chi tiết, chúng tôi luôn có kế hoạch chuẩn xác và theo sát tiến độ công trình đến ngày khánh thành.",
-    "approved_tag": "Bản vẽ đã duyệt",
-    "points": [
-        { "title": "Khảo sát & Tư vấn chuyên sâu", "desc": "Không chỉ bán thiết bị, chúng tôi tìm hiểu cặn kẽ không gian, tệp khách hàng mục tiêu của bạn để tư vấn concept phù hợp và tối ưu ROI." },
-        { "title": "Bản đề án chi tiết & Demo 3D", "desc": "Mọi họa tiết, vật liệu và kích thước tổng thể đều được minh bạch trên bản vẽ kỹ thuật chi tiết trước khi chốt thi công." },
-        { "title": "Tiến độ rõ ràng & Báo cáo liên tục", "desc": "Bám sát kế hoạch thi công phần cứng và tinh chỉnh phần mềm. Cập nhật tiến độ hàng ngày/tuần để khách hàng luôn làm chủ được thời gian ra mắt." },
-        { "title": "Đồng hành nghiệm thu & Vận hành", "desc": "Bàn giao tận nơi, training trực tiếp cho nhân viên cách vận hành máy, thay cuộn in và xử lý sự cố cơ bản." }
-    ],
-    "image_alt": "Bản vẽ kỹ thuật và Demo 3D Photobooth chi tiết của VibeBooth"
-},
-"conceptGallery": {
-    "header_title":"Tùy biến Mọi Concept Không Gian",
-    "header_desc":"Với thiết kế modular dạng khối ghép, VibeBooth dễ dàng chuyển mình khớp với concept nội thất sẵn có của bạn - từ Korea Style đến Cyberpunk.",
-    "concepts": [
-        { "title":"Eco-Green Booth", "desc":"Thiết kế khung nhôm tối giản kết hợp dây leo tự nhiên, biến cỗ máy thành món đồ decor tinh tế.", "badge":"Xu hướng" },
-        { "title":"Urban Garden White", "desc":"Thiết kế trắng tinh khôi kết hợp rèm xanh olive, tạo điểm nhấn thanh lịch giữa không gian ngập ánh sáng.", "badge":"Thanh lịch" },
-        { "title":"Skyview Villa Booth", "desc":"Khung nhôm thanh mảnh kết hợp rèm nhung đỏ quý phái, phù hợp không gian view panorama.", "badge":"Sự kiện" }
-    ]
-},
-"coreFeatures": {
-    "title_part1":"'Linh hồn' ",
-    "title_highlight":"VibeBooth Software",
-    "desc":"Phần mềm bản quyền được update liên tục, mang lại sức mạnh AI vượt trội và trải nghiệm mà đối thủ không thể sao chép.",
-    "features": [
-        { "title":"Tự động hóa hoàn toàn", "desc":"Từ lúc chạm màn hình đến in và gửi QR/Email hoàn toàn tự động." },
-        { "title":"Tuỳ biến Giao diện", "desc":"Hỗ trợ tuỳ biến giao diện theo nhu cầu doanh nghiệp (1 lần cập nhật miễn phí năm đầu)." },
-        { "title":"Video FX Đỉnh Cao", "desc":"Tự động thêm Slow Motion, Fast Motion, Reverse cho video chất." },
-        { "title":"Thiết kế Layout linh hoạt", "desc":"Ghép 1,2,4 kiểu vào khổ in 10x15cm hoặc strip 5x15cm với Template Editor." },
-        { "title":"Green Screen Kỹ Thuật Số", "desc":"AI tự động tách nền mượt mà, khách vi vu Paris hay đại dương ngay tại Booth." },
-        { "title":"Hỗ trợ Đa phương tiện", "desc":"Chụp ảnh, GIF, Boomerang và Short Videos với filter xịn." },
-        { "title":"Thanh toán Auto QR", "desc":"Máy hiện QR Code cho thanh toán online hoặc thu tiền mặt nhanh gọn." },
-        { "title":"Vẽ lên ảnh (Signature)", "desc":"Khách có thể ký tên, vẽ vời lên màn hình để cá nhân hóa ảnh." },
-        { "title":"Hỗ trợ thêm tính năng nếu bạn nghĩ ra", "desc":"Triển khai thêm các tính năng sáng tạo hoặc hữu ích dựa trên ý tưởng của bạn để tối ưu hóa trải nghiệm." }
-    ]
-},
-"footer": {
-    "brand_tagline":"Cái bạn cần là vibe. Chúng tôi sẽ hiện thực nó.",
-    "brand_description":"VibeBooth chuyên xây dựng hệ thống Photobooth thông minh và cung cấp giải pháp không gian tối ưu cho mọi mô hình.",
-    "quick_links_title":"Liên kết nhanh",
-    "quick_links":["Về chúng tôi","Tính năng phần mềm","Giải pháp chuỗi","Bảng giá đầu tư"],
-    "solutions_title":"Giải pháp",
-    "contact_title":"Liên hệ",
-    "solutions":["Photobooth cho Quán Cafe","Photobooth Sự kiện","Setup Shop Chuyên Dụng","Nhượng Quyền Thương Hiệu"],
-    "contact":{
-        "address":"Số 512 đường Nguyễn Xiển, Phường Long Thạnh Mỹ, Quận 9, TP. Hồ Chí Minh",
-        "phone":"+84 (0) 96 389 38 93",
-        "email":"dksky456@gmail.com"
+    "commitment": {
+        "title_part1": "Tâm huyết & Trách nhiệm",
+        "title_highlight": "Trên từng dự án",
+        "p1": "Khi tiếp nhận dự án, VibeBooth coi đó là một 'đứa con tinh thần' thực thụ. Chúng tôi không giao cho bạn một đống linh kiện vô hồn, chúng tôi bàn giao một máy in tiền trơn tru.",
+        "quote": "Từ những ý tưởng trên giấy đến bản vẽ kỹ thuật chi tiết, chúng tôi luôn có kế hoạch chuẩn xác và theo sát tiến độ công trình đến ngày khánh thành.",
+        "approved_tag": "Bản vẽ đã duyệt",
+        "points": [
+            { "title": "Khảo sát & Tư vấn chuyên sâu", "desc": "Không chỉ bán thiết bị, chúng tôi tìm hiểu cặn kẽ không gian, tệp khách hàng mục tiêu của bạn để tư vấn concept phù hợp và tối ưu ROI." },
+            { "title": "Bản đề án chi tiết & Demo 3D", "desc": "Mọi họa tiết, vật liệu và kích thước tổng thể đều được minh bạch trên bản vẽ kỹ thuật chi tiết trước khi chốt thi công." },
+            { "title": "Tiến độ rõ ràng & Báo cáo liên tục", "desc": "Bám sát kế hoạch thi công phần cứng và tinh chỉnh phần mềm. Cập nhật tiến độ hàng ngày/tuần để khách hàng luôn làm chủ được thời gian ra mắt." },
+            { "title": "Đồng hành nghiệm thu & Vận hành", "desc": "Bàn giao tận nơi, training trực tiếp cho nhân viên cách vận hành máy, thay cuộn in và xử lý sự cố cơ bản." }
+        ],
+        "image_alt": "Bản vẽ kỹ thuật và Demo 3D Photobooth chi tiết của VibeBooth"
     },
-    "privacy":"Chính sách bảo mật",
-    "terms":"Điều khoản dịch vụ",
-    "copyright":"© {{year}} VibeBooth. Bảo lưu mọi quyền." 
-},
-"pricing": {
-    "badge":"Bảng giá Đầu Tư",
-    "title":"Đầu tư một lần, Lợi nhuận dài hạn",
-    "desc":"Lựa chọn gói đầu tư phù hợp với quy mô kinh doanh của bạn. Chúng tôi minh bạch mọi chi phí để bạn dễ dàng tính toán ROI.",
-    "hardware_label":"Phần cứng",
-    "software_label":"Phần mềm (Thuê bao)",
-    "plans": [
-        {
-            "name": "Khởi Nghiệp",
-            "theme": "Vibe Essentials",
-            "hardware": "60.000.000 VNĐ",
-            "software": "1.000.000 VNĐ/tháng",
-            "description": "Dành cho cá nhân muốn thử sức với mô hình đặt tại cafe/studio nhỏ.",
-            "features": ["Sử dụng các bộ lọc (preset) cơ bản", "Hệ thống xuất ảnh QR Sharing tốc độ cao", "Thanh toán online qua QR tự động", "Hỗ trợ kỹ thuật & vá lỗi từ xa"],
-            "highlight": false,
-            "color": "from-slate-100 to-slate-50"
+    "conceptGallery": {
+        "header_title": "Tùy biến Mọi Concept Không Gian",
+        "header_desc": "Với thiết kế modular dạng khối ghép, VibeBooth dễ dàng chuyển mình khớp với concept nội thất sẵn có của bạn - từ Korea Style đến Cyberpunk.",
+        "concepts": [
+            { "title": "Eco-Green Booth", "desc": "Thiết kế khung nhôm tối giản kết hợp dây leo tự nhiên, biến cỗ máy thành món đồ decor tinh tế.", "badge": "Xu hướng" },
+            { "title": "Urban Garden White", "desc": "Thiết kế trắng tinh khôi kết hợp rèm xanh olive, tạo điểm nhấn thanh lịch giữa không gian ngập ánh sáng.", "badge": "Thanh lịch" },
+            { "title": "Skyview Villa Booth", "desc": "Khung nhôm thanh mảnh kết hợp rèm nhung đỏ quý phái, phù hợp không gian view panorama.", "badge": "Sự kiện" }
+        ]
+    },
+    "coreFeatures": {
+        "title_part1": "'Linh hồn' ",
+        "title_highlight": "VibeBooth Software",
+        "desc": "Phần mềm bản quyền được update liên tục, mang lại sức mạnh AI vượt trội và trải nghiệm mà đối thủ không thể sao chép.",
+        "features": [
+            { "title": "Tự động hóa hoàn toàn", "desc": "Từ lúc chạm màn hình đến in và gửi QR/Email hoàn toàn tự động." },
+            { "title": "Tuỳ biến Giao diện", "desc": "Hỗ trợ tuỳ biến giao diện theo nhu cầu doanh nghiệp (1 lần cập nhật miễn phí năm đầu)." },
+            { "title": "Video FX Đỉnh Cao", "desc": "Tự động thêm Slow Motion, Fast Motion, Reverse cho video chất." },
+            { "title": "Thiết kế Layout linh hoạt", "desc": "Ghép 1,2,4 kiểu vào khổ in 10x15cm hoặc strip 5x15cm với Template Editor." },
+            { "title": "Green Screen Kỹ Thuật Số", "desc": "AI tự động tách nền mượt mà, khách vi vu Paris hay đại dương ngay tại Booth." },
+            { "title": "Hỗ trợ Đa phương tiện", "desc": "Chụp ảnh, GIF, Boomerang và Short Videos với filter xịn." },
+            { "title": "Thanh toán Auto QR", "desc": "Máy hiện QR Code cho thanh toán online hoặc thu tiền mặt nhanh gọn." },
+            { "title": "Vẽ lên ảnh (Signature)", "desc": "Khách có thể ký tên, vẽ vời lên màn hình để cá nhân hóa ảnh." },
+            { "title": "Hỗ trợ thêm tính năng nếu bạn nghĩ ra", "desc": "Triển khai thêm các tính năng sáng tạo hoặc hữu ích dựa trên ý tưởng của bạn để tối ưu hóa trải nghiệm." }
+        ]
+    },
+    "footer": {
+        "brand_tagline": "Cái bạn cần là vibe. Chúng tôi sẽ hiện thực nó.",
+        "brand_description": "VibeBooth chuyên xây dựng hệ thống Photobooth thông minh và cung cấp giải pháp không gian tối ưu cho mọi mô hình.",
+        "quick_links_title": "Liên kết nhanh",
+        "quick_links": ["Về chúng tôi", "Tính năng phần mềm", "Giải pháp chuỗi", "Bảng giá đầu tư"],
+        "solutions_title": "Giải pháp",
+        "contact_title": "Liên hệ",
+        "solutions": ["Photobooth cho Quán Cafe", "Photobooth Sự kiện", "Setup Shop Chuyên Dụng", "Nhượng Quyền Thương Hiệu"],
+        "contact": {
+            "address": "Số 512 đường Nguyễn Xiển, Phường Long Thạnh Mỹ, Quận 9, TP. Hồ Chí Minh",
+            "phone": "+84 (0) 96 389 38 93",
+            "email": "dksky456@gmail.com"
         },
-        {
-            "name": "Chuyên Nghiệp",
-            "theme": "Pro AI Vibe",
-            "hardware": "75.000.000 VNĐ",
-            "software": "2.000.000 VNĐ/tháng",
-            "description": "Bán chạy nhất. Cho shop chuyên dụng cần sự khác biệt tuyệt đối về AI.",
-            "features": ["Full tính năng AI: Cartoonify, AI Retouch", "Tự tạo bộ lọc màu riêng theo brand vibe", "Thiết kế Custom Frame linh hoạt", "Dashboard quản lý trên điện thoại", "Update tính năng AI Trending mới nhất"],
-            "highlight": true,
-            "color": "from-teal-100 via-emerald-50 to-cyan-100"
-        },
-        {
-            "name": "Hệ Sinh Thái",
-            "theme": "Enterprise",
-            "hardware": "Liên hệ",
-            "software": "4.000.000 VNĐ/tháng",
-            "description": "Cho chủ đầu tư muốn chiếm lĩnh chuỗi hoặc nhượng quyền.",
-            "features": ["White Label: Gỡ logo VibeBooth, hiển thị brand riêng", "Phân quyền quản lý cho nhiều chi nhánh", "Tích hợp đồng bộ thanh toán phức hợp", "Bảo trì tận nơi định kỳ mỗi tháng"],
-            "highlight": false,
-            "color": "from-pink-100 to-rose-50"
-        },
-        {
-            "name": "Dịch Vụ 360°",
-            "theme": "Turnkey Solution",
-            "hardware": "Custom",
-            "software": "Turnkey",
-            "description": "Bàn giao chìa khóa trao tay từ A-Z. Tổng chi phí setup shop ~35M - 75M.",
-            "features": ["Thiết kế Concept & 3D (5M-10M)", "Thi công & Decor (15M-40M)", "Nội thất & Tủ kệ (7M-15M)", "Combo phụ kiện Props Thematic", "Đào tạo vận hành lễ tân (Miễn phí từ 2 máy)"],
-            "highlight": false,
-            "color": "from-amber-100 to-yellow-50"
-        }
-    ],
-    "best_seller":"Bán chạy nhất",
-    "button_text":"Nhận tư vấn gói này",
-    "why_title":"Tại sao giá VibeBooth khiến bạn an tâm?",
-    "why_desc":"Chúng tôi lấy chất lượng làm trọng tâm, giúp bạn làm chủ thị trường bằng công nghệ tạo giá trị bền vững.",
-    "why": [
-        { "title":"Làm chủ lõi công nghệ","desc":"Không dùng phần mềm mua đi bán lại. Mọi code tối ưu bởi chuyên gia IT quốc tế." },
-        { "title":"AI Cá nhân hóa","desc":"Đổi nhân vật hoạt hình, tuỳ chỉnh preset ngay tại Booth." },
-        { "title":"Đồng hành thực tế","desc":"Đội ngũ thi công biến mặt bằng trống thành điểm kinh doanh có lợi nhuận." }
-    ]
-},
-"solutions": {
-    "title":"Giải pháp VibeBooth",
-    "desc":"Không chỉ bán thiết bị, chúng tôi cung cấp hệ sinh thái kinh doanh Photobooth tự động hóa toàn diện từ A-Z.",
-    "space_badge":"01. Dành cho Người Mới",
-    "space_title":"Không gian & Trải nghiệm",
-    "space_desc":"Đánh bay nỗi lo bắt đầu. Chúng tôi tư vấn layout để thu hút GenZ.",
-    "ops_badge":"02. Quản lý Thảnh Thơi",
-    "ops_title":"Vận hành & Thanh toán",
-    "ops_desc":"Quản lý chuỗi Photobooth ngay trên điện thoại — cho chủ không rành công nghệ.",
-    "roadmap_title":"Lộ trình Startup VibeBooth",
-    "roadmap_desc":"Quy trình 5 bước giúp bạn khai trương trong 14-30 ngày.",
-    "roadmap_steps":["Tư vấn mặt bằng","Thiết kế không gian","Lắp đặt thiết bị","Cấu hình phần mềm","Khai trương"]
-},
-"trending": {
-    "badge":"Thiết kế Module linh hoạt",
-    "title":"Mẫu Booth Thịnh Hành",
-    "desc":"Chiêm ngưỡng các concept lắp đặt thực tế. VibeBooth hỗ trợ tùy biến thiết kế phù hợp không gian.",
-    "ideal_for":"Gợi ý lắp đặt",
-    "booths": [
-      {
-        "title": "Rustic Wooden Box",
-        "desc": "Thiết kế mộc mạc với chất liệu gỗ tự nhiên, rèm nâu ấm áp và bảng đen phấn trắng cổ điển.",
-        "badge": "Mộc mạc",
-        "idealFor": ["Quán Pub, Bar", "Cafe mộc", "Rạp chiếu phim", "Sảnh khách sạn"]
-      },
-      {
-        "title": "Elegant White Minimal",
-        "desc": "Khối hộp tối giản với hệ rèm thanh lịch, tôn lên sự chuyên nghiệp và tinh khôi.",
-        "badge": "Sang trọng",
-        "idealFor": ["Sự kiện doanh nghiệp", "Tiệc cưới", "Fashion Shop"]
-      },
-      {
-        "title": "Retro Classic Black",
-        "desc": "Tone đen nhám kết hợp họa tiết typography vintage và rèm nhung đỏ, tạo chất hoài cổ sâu sắc.",
-        "badge": "Cá tính",
-        "idealFor": ["Quán Pub, Bar", "Nhà hàng Âu", "Sự kiện Retro"]
-      },
-      {
-        "title": "Red Line Compact",
-        "desc": "Thiết kế cực kỳ nhỏ gọn bo góc hiện đại, đi kèm viền đỏ nổi bật, hút mắt người qua lại.",
-        "badge": "Hot Trend",
-        "idealFor": ["Quán trà sữa", "Cafe check in", "Store mặt tiền"]
-      },
-      {
-        "title": "Coastal Retro Booth",
-        "desc": "Dạng tủ vuông vức ốp gỗ vân sáng, điểm xuyết họa tiết retro gợn sóng và rèm xanh navy.",
-        "badge": "Hot Trend",
-        "idealFor": ["Quán Cafe", "Tiệm bánh ngọt", "Mini Studio"]
-      },
-      {
-        "title": "Classic Arcade Booth",
-        "desc": "Tủ gỗ viền đen kết hợp bảng hiệu hộp đèn rực rỡ, mang đậm vibe bốt chụp ảnh thập niên 90.",
-        "badge": "Cổ điển",
-        "idealFor": ["Bia craft", "Quán Pub", "Tổ hợp giải trí"]
-      }
-    ]
-  },
-  "promoPopup": {
-    "title": "Khuyến Mãi Khai Trương",
-    "subtitle": "Thời Gian Giới Hạn",
-    "plan_6months": "Gói Khởi Nghiệp 6 Tháng",
-    "plan_6months_price": "Chỉ từ 3.5 Tr / Máy",
-    "plan_12months": "Gói 12 Tháng",
-    "plan_12months_price": "Chỉ từ 5 Tr / Máy",
-    "description": "Khởi động kinh doanh Photobooth AI của bạn với giá ưu đãi đặc biệt",
-    "cta": "Nhận Báo Giá",
-    "close": "Đóng"
-}
+        "privacy": "Chính sách bảo mật",
+        "terms": "Điều khoản dịch vụ",
+        "copyright": "© {{year}} VibeBooth. Bảo lưu mọi quyền."
+    },
+    "pricing": {
+        "badge": "Bảng giá Đầu Tư",
+        "title": "Đầu tư một lần, Lợi nhuận dài hạn",
+        "desc": "Lựa chọn gói đầu tư phù hợp với quy mô kinh doanh của bạn. Chúng tôi minh bạch mọi chi phí để bạn dễ dàng tính toán ROI.",
+        "hardware_label": "Phần cứng",
+        "software_label": "Phần mềm (Thuê bao)",
+        "plans": [
+            {
+                "name": "Khởi Nghiệp",
+                "theme": "Vibe Essentials",
+                "hardware": "60.000.000 VNĐ",
+                "software": "1.000.000 VNĐ/tháng",
+                "description": "Dành cho cá nhân muốn thử sức với mô hình đặt tại cafe/studio nhỏ.",
+                "features": ["Sử dụng các bộ lọc (preset) cơ bản", "Hệ thống xuất ảnh QR Sharing tốc độ cao", "Thanh toán online qua QR tự động", "Hỗ trợ kỹ thuật & vá lỗi từ xa"],
+                "highlight": false,
+                "color": "from-slate-100 to-slate-50"
+            },
+            {
+                "name": "Chuyên Nghiệp",
+                "theme": "Pro AI Vibe",
+                "hardware": "75.000.000 VNĐ",
+                "software": "2.000.000 VNĐ/tháng",
+                "description": "Bán chạy nhất. Cho shop chuyên dụng cần sự khác biệt tuyệt đối về AI.",
+                "features": ["Full tính năng AI: Cartoonify, AI Retouch", "Tự tạo bộ lọc màu riêng theo brand vibe", "Thiết kế Custom Frame linh hoạt", "Dashboard quản lý trên điện thoại", "Update tính năng AI Trending mới nhất"],
+                "highlight": true,
+                "color": "from-teal-100 via-emerald-50 to-cyan-100"
+            },
+            {
+                "name": "Hệ Sinh Thái",
+                "theme": "Enterprise",
+                "hardware": "Liên hệ",
+                "software": "4.000.000 VNĐ/tháng",
+                "description": "Cho chủ đầu tư muốn chiếm lĩnh chuỗi hoặc nhượng quyền.",
+                "features": ["White Label: Gỡ logo VibeBooth, hiển thị brand riêng", "Phân quyền quản lý cho nhiều chi nhánh", "Tích hợp đồng bộ thanh toán phức hợp", "Bảo trì tận nơi định kỳ mỗi tháng"],
+                "highlight": false,
+                "color": "from-pink-100 to-rose-50"
+            },
+            {
+                "name": "Dịch Vụ 360°",
+                "theme": "Turnkey Solution",
+                "hardware": "Custom",
+                "software": "Turnkey",
+                "description": "Bàn giao chìa khóa trao tay từ A-Z. Tổng chi phí setup shop ~35M - 75M.",
+                "features": ["Thiết kế Concept & 3D (5M-10M)", "Thi công & Decor (15M-40M)", "Nội thất & Tủ kệ (7M-15M)", "Combo phụ kiện Props Thematic", "Đào tạo vận hành lễ tân (Miễn phí từ 2 máy)"],
+                "highlight": false,
+                "color": "from-amber-100 to-yellow-50"
+            }
+        ],
+        "best_seller": "Bán chạy nhất",
+        "button_text": "Nhận tư vấn gói này",
+        "why_title": "Tại sao giá VibeBooth khiến bạn an tâm?",
+        "why_desc": "Chúng tôi lấy chất lượng làm trọng tâm, giúp bạn làm chủ thị trường bằng công nghệ tạo giá trị bền vững.",
+        "why": [
+            { "title": "Làm chủ lõi công nghệ", "desc": "Không dùng phần mềm mua đi bán lại. Mọi code tối ưu bởi chuyên gia IT quốc tế." },
+            { "title": "AI Cá nhân hóa", "desc": "Đổi nhân vật hoạt hình, tuỳ chỉnh preset ngay tại Booth." },
+            { "title": "Đồng hành thực tế", "desc": "Đội ngũ thi công biến mặt bằng trống thành điểm kinh doanh có lợi nhuận." }
+        ]
+    },
+    "solutions": {
+        "title": "Giải pháp VibeBooth",
+        "desc": "Không chỉ bán thiết bị, chúng tôi cung cấp hệ sinh thái kinh doanh Photobooth tự động hóa toàn diện từ A-Z.",
+        "space_badge": "01. Dành cho Người Mới",
+        "space_title": "Không gian & Trải nghiệm",
+        "space_desc": "Đánh bay nỗi lo bắt đầu. Chúng tôi tư vấn layout để thu hút GenZ.",
+        "ops_badge": "02. Quản lý Thảnh Thơi",
+        "ops_title": "Vận hành & Thanh toán",
+        "ops_desc": "Quản lý chuỗi Photobooth ngay trên điện thoại — cho chủ không rành công nghệ.",
+        "roadmap_title": "Lộ trình Startup VibeBooth",
+        "roadmap_desc": "Quy trình 5 bước giúp bạn khai trương trong 14-30 ngày.",
+        "roadmap_steps": ["Tư vấn mặt bằng", "Thiết kế không gian", "Lắp đặt thiết bị", "Cấu hình phần mềm", "Khai trương"],
+        "space_features": [
+            { "title": "Tư vấn Setup Concept", "desc": "Mẫu thiết kế shop từ hiện đại, minimalist đến dễ thương kiểu Hàn Quốc." },
+            { "title": "Hệ thống Booth đa dạng", "desc": "Tùy biến nhiều phòng chụp (mỗi phòng một vibe) để tối ưu doanh thu." },
+            { "title": "Kệ trưng bày phụ kiện", "desc": "Gợi ý cách sắp xếp bờm, kính, đạo cụ tạo trải nghiệm mượt mà." }
+        ],
+        "ops_features": [
+            { "title": "Smart Payment", "desc": "Thanh toán online (QR) và offline (tiền mặt), tự động hóa quy trình." },
+            { "title": "Dashboard từ xa", "desc": "Theo dõi doanh thu, tình trạng giấy in và vật tư theo thời gian thực." },
+            { "title": "Support 24/7", "desc": "Hỗ trợ kỹ thuật từ đội ngũ kỹ sư để máy luôn hoạt động 100%." }
+        ]
+    },
+    "trending": {
+        "badge": "Thiết kế Module linh hoạt",
+        "title": "Mẫu Booth Thịnh Hành",
+        "desc": "Chiêm ngưỡng các concept lắp đặt thực tế. VibeBooth hỗ trợ tùy biến thiết kế phù hợp không gian.",
+        "ideal_for": "Gợi ý lắp đặt",
+        "booths": [
+            {
+                "title": "Rustic Wooden Box",
+                "desc": "Thiết kế mộc mạc với chất liệu gỗ tự nhiên, rèm nâu ấm áp và bảng đen phấn trắng cổ điển.",
+                "badge": "Mộc mạc",
+                "idealFor": ["Quán Pub, Bar", "Cafe mộc", "Rạp chiếu phim", "Sảnh khách sạn"]
+            },
+            {
+                "title": "Elegant White Minimal",
+                "desc": "Khối hộp tối giản với hệ rèm thanh lịch, tôn lên sự chuyên nghiệp và tinh khôi.",
+                "badge": "Sang trọng",
+                "idealFor": ["Sự kiện doanh nghiệp", "Tiệc cưới", "Fashion Shop"]
+            },
+            {
+                "title": "Retro Classic Black",
+                "desc": "Tone đen nhám kết hợp họa tiết typography vintage và rèm nhung đỏ, tạo chất hoài cổ sâu sắc.",
+                "badge": "Cá tính",
+                "idealFor": ["Quán Pub, Bar", "Nhà hàng Âu", "Sự kiện Retro"]
+            },
+            {
+                "title": "Red Line Compact",
+                "desc": "Thiết kế cực kỳ nhỏ gọn bo góc hiện đại, đi kèm viền đỏ nổi bật, hút mắt người qua lại.",
+                "badge": "Hot Trend",
+                "idealFor": ["Quán trà sữa", "Cafe check in", "Store mặt tiền"]
+            },
+            {
+                "title": "Coastal Retro Booth",
+                "desc": "Dạng tủ vuông vức ốp gỗ vân sáng, điểm xuyết họa tiết retro gợn sóng và rèm xanh navy.",
+                "badge": "Hot Trend",
+                "idealFor": ["Quán Cafe", "Tiệm bánh ngọt", "Mini Studio"]
+            },
+            {
+                "title": "Classic Arcade Booth",
+                "desc": "Tủ gỗ viền đen kết hợp bảng hiệu hộp đèn rực rỡ, mang đậm vibe bốt chụp ảnh thập niên 90.",
+                "badge": "Cổ điển",
+                "idealFor": ["Bia craft", "Quán Pub", "Tổ hợp giải trí"]
+            }
+        ]
+    },
+    "promoPopup": {
+        "title": "Khuyến Mãi Khai Trương",
+        "subtitle": "Thời Gian Giới Hạn",
+        "plan_6months": "Gói Khởi Nghiệp 6 Tháng",
+        "plan_6months_price": "Chỉ từ 3.5 Tr / Máy",
+        "plan_12months": "Gói 12 Tháng",
+        "plan_12months_price": "Chỉ từ 5 Tr / Máy",
+        "description": "Khởi động kinh doanh Photobooth AI của bạn với giá ưu đãi đặc biệt",
+        "cta": "Nhận Báo Giá",
+        "close": "Đóng"
+    }
 }
